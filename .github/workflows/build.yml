@@ -15,4 +15,4 @@ jobs:
     - name: 'Install Dependencies'
       run: npm install 
     - name: 'Test code ' 
-      run: mode_modules/.bin/jest
+      run: node_modules/.bin/jest
